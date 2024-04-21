@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.categories-slider{
+  
+}
+
+.test .slick-track,.categories-slider .slick-track {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+ .slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.slide-item{
+  width: fit-content !important;
+}
