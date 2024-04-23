@@ -1,10 +1,12 @@
 import Home from "./pages/Home"
+import ProductDetails from "./pages/ProductDetails"
 
 function App() {
 
   return (
    <>
-   <Home/>
+   {/* <Home/> */}
+   <ProductDetails/>
    </>
   )
 }
